@@ -6,13 +6,35 @@
 
 **Este projeto foi desenvolvido como atividade final do curso de capacitação em Python da Cyber Edux, realizado de setembro de 2023 até março de 2024. Para mais informações, consulte o [enunciado](ENUNCIADO.md).**
 
-# Nome do Projeto
+# Sistema de notas
 
 <!-- Substitua a seguinte imagem por uma logo do seu projeto -->
-<img src="img/logo.png" width="150px">
+<img src="https://i.pinimg.com/736x/e6/7e/2b/e67e2b08be77df9a22c7caf517989b5f.jpg" width="150px">
 
 <!-- Substitua o seguinte parágrafo por um resumo do seu projeto: -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+**Definição dos Requisitos:**
+Antes de começar a codificar, passei um tempo detalhando os requisitos do sistema. Identifiquei os diferentes tipos de usuários - alunos, professores e administradores - e as funcionalidades essenciais, como inserção de notas, visualização de desempenho dos alunos e gerenciamento de turmas.
+
+**Modelagem de Dados:**
+Com os requisitos em mãos, comecei a projetar o banco de dados do sistema. Criei modelos Django para representar entidades como alunos, professores, disciplinas, turmas e notas. Por exemplo, o modelo de aluno contém campos como nome, idade e turma, enquanto o modelo de nota registra a pontuação de um aluno em uma disciplina específica.
+
+**Implementação das Views e Templates:**
+A próxima etapa foi criar as views e templates para a interface do usuário. Usei as views do Django para processar solicitações HTTP e renderizar templates HTML. Desenvolvi páginas web para funcionalidades como inserção de notas, visualização de desempenho dos alunos e geração de relatórios.
+
+**Autenticação e Autorização:**
+Garantir a segurança do sistema foi uma prioridade. Implementei a autenticação e autorização do Django para controlar o acesso dos usuários às diferentes partes do sistema. Isso garante que apenas usuários autorizados possam visualizar ou modificar dados sensíveis.
+
+**Implementação de Funcionalidades Específicas:**
+Com a estrutura básica em funcionamento, concentrei-me em implementar funcionalidades específicas, como a capacidade dos professores de inserir notas e os alunos de visualizar seus próprios resultados. Isso envolveu escrever lógica personalizada e integrar bibliotecas Python para realizar cálculos e manipulações de dados.
+
+**Testes:**
+Testar o sistema foi uma etapa crucial. Usei as ferramentas de teste do Django para escrever testes automatizados que garantem o bom funcionamento do sistema e evitam regressões. Testei cada funcionalidade para garantir que ela funcionasse conforme o esperado.
+
+**Implantação:**
+Por fim, implantei o sistema em um servidor web para que pudesse ser acessado pelos usuários finais. Optei por hospedá-lo em um serviço de nuvem para garantir escalabilidade e confiabilidade.
+
+
 
 ## Documentação
 
@@ -24,4 +46,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!-- Coloque seu nome, uma foto sua e uma pequena bio sobre você na seguinte tabela: -->
 |  |  |
 |:-------------:|:------------------------------------------------------------:|
-|  <img src="img/profilepic.png" width="150px"></br> **Nome do Autor** | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. |
+|  <img src="https://i.pinimg.com/564x/01/49/c6/0149c6136b1b567d188241d77990719f.jpg" width="150px"></br> **Rafaela Fernandes De Sousa Ribeiro Leite** | Meu nome é Rafaela Fernandes de Sousa Ribeiro Leite, tenho 20 anos e sou natural de Mato Grosso, Brasil. Desde sempre, tive um interesse profundo tanto pela educação quanto pela tecnologia, e é isso que tem moldado minha jornada até aqui. Atualmente, estou cursando Pedagogia na Universidade Federal de Mato Grosso. Escolhi esse caminho porque acredito que a educação é uma ferramenta poderosa para transformar vidas e comunidades. Quero contribuir para a melhoria do sistema educacional brasileiro e ajudar a proporcionar uma educação de qualidade para todos.Além dos meus estudos em Pedagogia, também estou fazendo um curso técnico de Python. Sempre fui fascinada pela tecnologia e suas possibilidades, e aprender uma linguagem de programação como Python me permite explorar novas maneiras de usar a tecnologia para o bem da sociedade. Estou animada para ver como posso integrar meus conhecimentos em pedagogia e tecnologia para criar soluções inovadoras que beneficiem a educação e a sociedade como um todo. Estou comprometida em continuar aprendendo e crescendo, buscando oportunidades para fazer a diferença na minha comunidade e além. Embora seja desafiador equilibrar meus estudos em Pedagogia com o curso técnico de Python, estou animada com as possibilidades que se abrem diante de mim. Estou ansiosa para ver como posso integrar esses dois campos aparentemente distintos para criar soluções únicas e eficazes que melhorem a experiência educacional de meus alunos e os preparem para um mundo cada vez mais digitalizado. Estou comprometida em continuar minha jornada de aprendizado e crescimento, buscando constantemente maneiras de me desafiar e expandir meus horizontes. Estou determinada a fazer a diferença na vida das pessoas, seja através da educação, da tecnologia ou de uma combinação de ambas. |
